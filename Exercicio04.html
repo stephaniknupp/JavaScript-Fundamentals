@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Testando Funcionalidades</title>
+        <h1>JAVASCRPIT</h1>
+    </head>
+    <body>
+        <script>
+        function qtd(anos){
+            if(anos<1){
+                return 'Iniciante'
+            }else if(anos<3){
+                return 'Intermediário'
+            }else if(anos<7){
+                return 'Avancado'
+            }else{
+                return 'Jedi Master'
+            }
+        }
+        var exp = 9
+        console.log(qtd(exp))
+        /* de 0-1: iniciante
+           de 1-3: inter
+           de 3-6: avan
+           7++: jedi master 
+        */
+        </script>
+    </body>
+</html>
